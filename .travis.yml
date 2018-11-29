@@ -1,3 +1,4 @@
+os: linux
 language: c
-script: make dep && make test
+script: make dep && make clean && make test
 compiler: gcc
